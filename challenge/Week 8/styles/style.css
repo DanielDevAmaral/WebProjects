@@ -1,0 +1,24 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -40px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.phone-container {
+    width: 320px; /* Adjust the width to match the desired smartphone screen size */
+    height: 640px; /* Adjust the height to match the desired smartphone screen size */
+    background-color: white; /* Set the background color to mimic the smartphone */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding to separate the content from the edges */
+    border-radius: 20px;
+  }

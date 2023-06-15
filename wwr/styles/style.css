@@ -22,6 +22,38 @@ h2 {
     margin: 0;
 }
 
+h2 {
+    /* display: grid; */
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #2ea5e4;
+    border-radius: 24px;
+    padding-top: 19px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #8fd8ff;
+}
+
+.rivers-card2 h2 {
+    display: grid;
+    grid-column: 2;
+}
+
+rivers-card3 h2 {}
+
+rivers-card3 h2 {
+    display: grid;
+}
+
+.rivers-card2 h2 {
+    display: grid;
+    grid-column: 1;
+}
+
+.rivers-card2 {
+    grid-gap: 2%;
+    padding-top: 35px;
+}
+
 .home-title{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 2em;
@@ -60,6 +92,26 @@ nav a:hover{
 
 main section img  {
     box-sizing: border-box;
+}
+
+img.card-img-river {
+    width: 520px;
+    height: 520px;
+    border-radius: 24px;
+}
+
+.rivers-card3 img {
+    padding-left: 2%;
+}
+
+.rivers-card1 img {
+    padding-left: 2%;
+}
+
+.rivers-card2 img {
+    display: grid;
+    grid-column: 2;
+    padding-right: 2%;
 }
 
 .book, .join{
@@ -124,6 +176,28 @@ h4{
 main section {
     text-align: center;
 }
+
+section.rivers-card3 {
+    display: grid;
+}
+
+.rivers-card3 {
+    grid-gap: 2%;
+    padding-top: 35px;
+}
+
+section.rivers-card2 {
+    display: grid;
+}
+
+p {}
+
+.rivers-card2 p {
+    display: grid;
+    grid-column: 1;
+}
+
+p {display: grid;grid-row: 1;grid-column: 2;margin: 15px;padding-top: 56px;font-size: 22px;color: white;}
 
 #background {
     height: 725px;
@@ -239,6 +313,57 @@ footer a:hover{
 footer .social img{
     padding-top: 15px;
 }
+
+/* Rivers Subpage */
+
+#hero-img-river{
+    width: 100%;
+}
+
+.home-title-river {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1.home-title-river {
+    font-size: 65px;
+    margin: 35px;
+}
+
+.home-grid-river{
+    display: grid;
+}
+
+.rivers-card1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.card-img-river1{
+    grid-column: 1/2;
+}
+
+.river-txt1{
+    display: grid;
+    grid-column: 2/3;
+}
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
