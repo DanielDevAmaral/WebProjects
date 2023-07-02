@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio | Daniel Amaral</title>
 </head>
 <body>
     <header>
-        <img src="images/Warner.png" alt="logo">
+        <img class="logo" src="images/Warner transparent.png" alt="logo">
         <nav>
             <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="career.html">Career</a></li>
+                <li><a class="bar" href="index.html">Home</a></li>
+                <li><a class="bar" href="projects.html">Projects</a></li>
+                <li><a class="bar" href="career.html">Career</a></li>
             </ul>
         </nav>
     </header>
     <div class="main-container">
         <h1 class="main-head">
-            Hi I'm Daniel Amaral
+            I'm Daniel Amaral
         </h1>
 
         <p class="main-para">
-            "I am 23 years old and I live in Brazil. I have a strong passion for learning and I am currently 
-            studying Software Engineering at Brigham Young University in Idaho. I dedicated a year and a half to pursue my studies here. 
-            With the aim of becoming a future DevOps and Software Engineer, I initially delved into web development, focusing on JavaScript 
-            and top frameworks such as Angular, React, and Vue.js. I am excited to introduce myself and provide you with an opportunity to explore 
-            my projects. So, without further ado, let's get started!"
+            I'm a 23-year-old Software Engineering student from Brazil, currently studying at Brigham Young University in Idaho.
+             I'm passionate about learning and aspire to become a Software Engineer. I specialize in web development, particularly 
+            JavaScript and frameworks like Angular, React, and Vue.js. I'm thrilled to share my projects with you. Let's dive in!
         </p>
 
-        <img src="images/Eu.png" alt="me">
+        <img class="img-hero" src="images/Eu.png" alt="me">
     </div>
     <div class="skills-container">
         <h2 class="skills-head">
             Skills
         </h2>
-
-        <img class="circle1" src="images/html.png" alt="">
-        <img class="circle2" src="images/css.jpg" alt="">
-        <img class="circle3" src="images/js.png" alt="">
+        <div class="circle">
+            <div class="circle-one">
+                <img class="circle1" src="images/Design 2/3.png" alt="">
+            </div>
+            <div class="circle-two">
+                <img class="circle2" src="images/Design 2/2.png" alt="">
+            </div>
+            <div class="circle-three">
+                <img class="circle3" src="images/Design 2/1.png" alt="">
+            </div>
+        </div>
     </div>   
     <footer>
         <div class="footer-container">
             <h2 class="footer-head">
                 Get in touch
             </h2>
-            <img src="images/facebook.png" alt="Facebook">
-            <img src="images/whatsapp.png" alt="My number">
-            <img src="images/github.png" alt="Github">
-            <img src="images/instagram.png" alt="Instagram">
+                <div class="imgs">
+                    <a href="https://www.facebook.com/daniel.amaral.9066" target="_blank">
+                        <img  class="liks1" src="images/facebook.png" alt="Facebook" style="width: 15%;">
+                    </a>
+                    <a href="https://wa.me/5579999931419" target="_blank">
+                        <img class="liks2"  src="images/whatsapp.png" alt="My number" style="width: 15%;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-amaral-perfil/" target="_blank">
+                        <img class="liks3"  src="images/github.png" alt="Github" style="width: 15%;">
+                    </a>
+                    <a href="https://www.instagram.com/daniell_milk/" target="_blank">
+                        <img class="liks4"  src="images/instagram.png" alt="Instagram" style="width: 15%;">
+                    </a>
+            </div>
         </div>
-        <nav>
+        <nav class="nav-footer">
             <ul class="navbarfooter">
                 <li><a href="site-plan.html">Site Plan</a></li>
-            </ul>
         </nav>
     </footer>
 </body>
