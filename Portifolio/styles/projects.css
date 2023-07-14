@@ -25,12 +25,12 @@ li {
  
   }
 
-  li a {
+  li .bar {
     color: #2e365e;
     text-decoration: none;
   }
 
-  a::before {
+  .bar::before {
     content: '';
     background-color: hsla(196, 61%, 58%, .75);
     position: absolute;
@@ -41,19 +41,19 @@ li {
     z-index: -1;
   }
 
-  a {
+  .bar {
     text-decoration: none;
     position: relative;
   }
 
 
-  a:hover::before {
+  .bar:hover::before {
     bottom: 0;
     height: 100%;
     border-radius: 4px;
   }
 
-  a::before {
+  .bar::before {
     content: '';
     background-color: hsla(196, 61%, 58%, .75);
     position: absolute;
@@ -96,7 +96,7 @@ li {
     padding-right: 5%;
   }
 
-  .text_one{
+  .text_one {
     display: grid;
     grid-column: 2;
     grid-row: 1;
@@ -104,8 +104,7 @@ li {
     padding-right: 5%;
     font-size: 30px;
     color: grey;
-    
-  }
+}
 
   .img_two{
     width: 520px;
@@ -166,9 +165,6 @@ li {
 
 
 
-
-
-
   /* footer */
 
   .footer-container{
@@ -178,35 +174,40 @@ li {
     align-items: center;
     background-color: #2e365e;
     margin: 5%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     border-radius: 20px;
-  }
-
-  .imgs {
-    display: grid;
   }
 
   .liks1{
     display: grid;
     grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
   }
   .liks2{
     display: grid;
     grid-column: 2;
+    grid-row: 2;
+    margin: 0 auto;
   }
   .liks3{
     display: grid;
     grid-column: 3;
+    grid-row: 2;
+    margin: 0 auto;
   }
   .liks4{
     display: grid;
     grid-column: 4;
+    grid-row: 2;
+    margin: 0 auto;
   }
 
   .footer-container h2 {
     grid-column: 1/5;
     color: white;
     font-size: 35px;
+    padding-bottom: 3%;
   }
   
   /* nav bar footer */
@@ -221,4 +222,5 @@ li {
     justify-items: center;
   }
 
-  /* end of the footer */
+
+  
