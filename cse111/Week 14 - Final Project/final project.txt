@@ -1,0 +1,7 @@
+python GUI for calculation the gas that a car or a truck consume in a  tripe
+
+1º Func: reads a dic
+2º Func: insert new cars in the dic
+3º func: delete cars in the dic
+4º func: perform calculation
+
