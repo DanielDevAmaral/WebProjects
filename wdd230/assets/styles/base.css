@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    background-color: rgb(11, 11, 104);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header h1{
+    color: white;
+}
+
+header img {
+    width: 10%;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav li{
+    position: relative;
+    padding-top: 3%;
+}
+
+nav li a{
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+main section {
+    grid-column: 1;
+}
